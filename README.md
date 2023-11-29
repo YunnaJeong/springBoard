@@ -1,1 +1,6 @@
-# springBoard
+# spring으로 게시판구현
+
+springframework로 게시판 구현을 했습니다.
+1. 회원가입. 로그인
+2. 게시판 작성, 수정, 삭제
+3. 파일업로드
