@@ -59,21 +59,6 @@ public class MemberController {
 	}
 	
 	
-//	@PostMapping(value="/join.do", produces="application/text; charset=UTF-8")
-//	public String insertMember(MemberVO memberVO, Model model) {
-//		
-//		String resMsg ="회원가입에 성공했습니다. 로그인해주세요."; 
-//		try {
-//			memberService.insertMember(memberVO);
-//		} catch(Exception e) {
-//			resMsg = "회원가입에 실패했습니다. 문의해주세요.";			
-//			return "member/join";
-//			
-//		} 
-//		model.addAttribute("joinMsg", resMsg);
-//		return "member/login";    // -> finally 쓰라고 하셨는데 어떻게 해결해야할지...?
-//	}
-	
 
 	
 	@PostMapping("/idCheck.do")
